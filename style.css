@@ -1,0 +1,100 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body html{
+    font-family: 'Roboto', sans-serif;
+    overflow-x: hidden;
+}
+
+.header{
+    background-image: url("IN-en-20241008-TRIFECTA-perspective_b28b640f-cee0-426b-ac3a-7c000d3b41b7_large.jpg");
+    background-size: cover;
+    width: 100%;
+    height: 100vh;
+    
+}
+
+.logo{
+    background-image: url("Netflix_Logo_PMS.jpg");
+    background-size: cover;
+    height: 100px;
+    width: 220px;
+    position: absolute;
+    top: 30px;
+    left: 300px;
+
+}
+
+.black{
+    display: flex;
+    height: 100%;
+    width: 100%;
+    background-color: rgba(0, 0, 0, 0.6);
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.headline {
+    height: 10px;
+    width: 900px;
+    color: white;
+    font-size: 3rem;
+    text-align: center;
+    background-color: transparent;
+    font-weight: bold;
+    position: relative;
+    top: -100px;
+  }
+
+  .pricing{
+    color: white;
+    font-weight: bold;
+    font-size: 1.8rem;
+    position: relative;
+    top: 150px;
+  }
+
+  .pitch{
+    color: white;
+    font-weight: bold;
+    position: relative;
+    font-size: 1.3rem;
+    top: 180px;
+  }
+
+.headerform{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.emailid{
+    height: 80px;
+    width: 550px;
+    position: relative;
+    border: none;
+    border: 2px solid white;
+    border-radius: 5px;
+    top: 250px;
+    left: -200px;
+    background-color: rgba(42, 40, 40, 0.8);
+    font-size: 2rem;
+}
+
+.getstarted{
+    height: 80px;
+    width: 250px;
+    background-color: red;
+    color: white;
+    font-size: 1.5rem;
+    border: none;
+    border: 1px solid red;
+    border-radius: 5px;
+    position: relative;
+    top: 170px;
+    left: 380px;
+}
