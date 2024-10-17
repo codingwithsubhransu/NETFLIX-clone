@@ -265,3 +265,13 @@ body, html{
     left: -100px;
     margin-left: 20px;
 }
+
+.item2 {
+    position: relative;
+    top: 305px;
+}
+
+.item3 {
+    position: relative;
+    top: 310px;
+}
