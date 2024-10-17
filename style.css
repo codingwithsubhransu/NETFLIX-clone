@@ -17,16 +17,6 @@ body html{
     
 }
 
-.logo{
-    background-image: url("Netflix_Logo_PMS.jpg");
-    background-size: cover;
-    height: 100px;
-    width: 220px;
-    position: absolute;
-    top: 30px;
-    left: 300px;
-
-}
 
 .black{
     display: flex;
@@ -36,6 +26,45 @@ body html{
     justify-content: center;
     align-items: center;
     flex-direction: column;
+}
+
+.logo{
+    background-image: url("Netflix_Logo_PMS.jpg");
+    background-size: cover;
+    height: 100px;
+    width: 220px;
+    position: absolute;
+    top: 30px;
+    left: 100px;
+}
+
+#lang{
+    color: whitesmoke;
+    font-size: 1.5rem;
+    position: absolute;
+    top: 50px;
+    right: 300px;
+    background-color: rgba(0, 0, 0, 0.6);
+    border: none;
+    border: 2px solid white;
+    border-radius: 5px;
+    height: 50px;
+    width: 200px;
+}
+
+.signin{
+    border: none;
+    border: 2px solid red;
+    border-radius: 5px;
+    position: absolute;
+    height: 50px;
+    width: 100px;
+    font-weight: bold;
+    font-size: 1.5rem;
+    color: white;
+    background-color: red;
+    top: 50px;
+    right: 150px;
 }
 
 .headline {
@@ -74,13 +103,13 @@ body html{
 
 .emailid{
     height: 80px;
-    width: 550px;
+    width: 570px;
     position: relative;
     border: none;
     border: 2px solid white;
     border-radius: 5px;
     top: 250px;
-    left: -200px;
+    left: -150px;
     background-color: rgba(42, 40, 40, 0.8);
     font-size: 2rem;
 }
@@ -96,5 +125,5 @@ body html{
     border-radius: 5px;
     position: relative;
     top: 170px;
-    left: 380px;
+    left: 450px;
 }
