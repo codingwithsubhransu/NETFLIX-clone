@@ -4,7 +4,7 @@
     box-sizing: border-box;
 }
 
-body html{
+body, html{
     font-family: 'Roboto', sans-serif;
     overflow-x: hidden;
 }
@@ -14,12 +14,16 @@ body html{
     background-size: cover;
     width: 100%;
     height: 100vh;
+    box-shadow: 3px rgb(247, 138, 247);
+    background-color: black;
     
 }
 
 
 .black{
     display: flex;
+    padding: 0;
+    margin: 0;
     height: 100%;
     width: 100%;
     background-color: rgba(0, 0, 0, 0.6);
@@ -71,7 +75,7 @@ body html{
     height: 10px;
     width: 900px;
     color: white;
-    font-size: 3rem;
+    font-size: 2.5rem;
     text-align: center;
     background-color: transparent;
     font-weight: bold;
@@ -96,6 +100,8 @@ body html{
   }
 
 .headerform{
+    padding: 0;
+    margin: 0;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -126,4 +132,136 @@ body html{
     position: relative;
     top: 170px;
     left: 450px;
+}
+
+.main{
+    padding: 0;
+    margin: 0;
+    height: 200vh;
+    display: flex;
+    background-color: black;
+    color: white;
+    flex-direction: column;
+}
+
+.trending{
+    position: relative;
+    height: 100px;
+    width: 400px;
+    top: 100px;
+    left: 200px;
+    font-size: 1.3rem;
+    font-weight: bold;
+}
+
+.region{
+    padding: 0;
+    margin: 0;
+    display: flex;
+    position: relative;
+}
+
+#country{
+    height: 50px;
+    width: 150px;
+    border: none;
+    border: 2px solid rgba(108, 106, 106, 0.9);
+    border-radius: 5px;
+    background-color: rgba(42, 40, 40, 0.8);
+    font-size: 1.5rem;
+    color: rgb(254, 252, 252);
+    position: relative;
+    top: 100px;
+    left: 200px;
+}
+
+#shows{
+    height: 50px;
+    width: 150px;
+    border: none;
+    border: 2px solid rgba(85, 83, 83, 0.8);
+    border-radius: 5px;
+    background-color: rgba(42, 40, 40, 0.8);
+    font-size: 1.5rem;
+    color: white;
+    position: relative;
+    top: 100px;
+    left: 250px;
+}
+
+.movies{
+    padding: 0;
+    margin: 0;
+    display: flex;
+    position: relative;
+    top: 150px;
+    left: 230px;
+}
+.movie1{
+    background-size: cover;
+}
+
+.movie2{
+    background-size: cover;
+}
+
+.movie3{
+    background-size: cover;
+}
+
+.movie4{
+    position: relative;
+    top: -9px;
+    background-size: cover;
+}
+
+.movie5{
+    position: relative;
+    top: -35px;
+    background-size: cover;
+}
+
+.movie6{
+    position: relative;
+    top: -5px;
+    background-size: cover;
+}
+
+.movie7{
+    position: relative;
+    top: -25px;
+    background-size: cover;
+}
+
+.movie:hover{
+    transform: scale(1.1);
+}
+
+.morereason{
+    padding: 0;
+    margin: 0;
+    display: flex;
+}
+
+.morereasonheading{
+    
+    position: relative;
+    font-size: 0.9rem;
+    top: 200px;
+    left: 200px;
+    color: white;
+    font-weight: bold;
+}
+
+.reasons{
+    padding: 0;
+    margin: 0;
+    display: flex;
+}
+
+.items{
+    position: relative;
+    top: 300px;
+    left: -100px;
+    margin-left: 20px;
 }
