@@ -197,6 +197,8 @@ body, html{
     top: 150px;
     left: 230px;
 }
+
+
 .movie1{
     background-size: cover;
 }
@@ -274,4 +276,142 @@ body, html{
 .item3 {
     position: relative;
     top: 310px;
+}
+
+@media(max-width: 426px) and (min-width: 320px){
+    .logo{
+        background-image: url("Netflix_Logo_for\ phones.png");
+        background-size: cover;
+        height: 50px;
+        width: 120px;
+        position: absolute;
+        top: 20px;
+        left: 10px;
+    }
+
+    #lang{
+        left:230px;
+        width: 50px;
+        height: 30px;
+        top: 30px;
+        font-size: 1rem;
+    }
+
+    .signin{
+        top: 30px;
+        right: 40px;
+        width: 60px;
+        height: 30px;
+        font-size: 1rem;
+    }
+
+    .headline{
+        font-size: 1rem;
+        height: 50px;
+        width: 350px;
+        top: 20px;
+    }
+
+    .pricing{
+        font-size: 1rem;
+        top: 70px;
+    }
+
+    .pitch{
+        height: 50px;
+        width: 300px;
+        font-size: 0.8rem;
+        top: 100px;
+    }
+
+    .emailid{
+        color: white;
+        height: 50px;
+        width: 320px;
+        top: 120px;
+        left: 0px;
+        font-size: 1rem;
+    }
+
+    .getstarted{
+        height: 50px;
+        width: 150px;
+        top: 150px;
+        left: 100px;
+        font-size: 0.8rem;
+        font-weight: bold;
+    }
+
+    .trending{
+        height: 100px;
+        width: 400px;
+        top: 50px;
+        left: 50px;
+        font-size: 0.6rem;
+        font-weight: bold;
+    }
+    
+    #country{
+        top: 60px;
+        left: 50px;
+        font-size: 1rem;
+        height: 40px;
+        width: 300px;
+    }
+
+    #shows{
+        top: 120px;
+        left: -250px;
+        font-size: 1rem;
+        height: 40px;
+        width: 300px;
+    }
+
+    .movies{
+        flex-direction: column;
+        position: relative;
+        left: 90px;
+    }
+
+    .movie7{
+        top: 30px;
+    }
+
+    .movie6{
+        top: 0px;
+    }
+
+    .movie5{
+        top: -20px;
+    }
+
+    .main{
+        padding: 0;
+        margin: 0;
+        height: 500vh;
+    }
+
+    .morereason{
+        flex-direction: column;
+        position:relative;
+        top: 50px;
+    }
+    
+    .morereasonheading{
+        
+        position: relative;
+        font-size: 0.6rem;
+        top: 200px;
+        left: 10px;
+        color: white;
+        font-weight: bold;
+    }
+
+    .reasons{
+        flex-direction: column;
+        position: relative;
+        top: -90px;
+        left: 80px;
+        height: 20px;
+    }
 }
